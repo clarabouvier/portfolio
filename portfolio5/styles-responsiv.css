@@ -1,0 +1,533 @@
+@media screen and (max-width: 70em) {
+    /*position h1 portable*/
+
+
+    .accueil > .projet-indiglu > .grille-indiglu > img,
+    .accueil > .projet-campuscar > .grille-campuscar > img {
+        left: 0;
+    }
+
+    .accueil > .projet-indiglu:hover > .grille-indiglu > img,
+    .accueil > .projet-campuscar:hover > .grille-campuscar > img {
+        left: 0;
+    }
+
+    .accueil > .projet-indiglu > .grille-indiglu > .texte-indiglu {
+        position: relative;
+        right: 0;
+    }
+
+    .accueil > .projet-indiglu:hover > .grille-indiglu > .texte-indiglu {
+        right: 0;
+    }
+
+
+
+    body {
+        width: 70vh;
+    }
+
+    header >nav > ul > li > a {
+        font-size: 4em;
+    }
+
+    header > nav {
+        height: 12vh;
+        margin-top: 50px;
+    }
+
+
+    .animation > .image > img {
+        width: 50vh;
+    }
+
+    .animation > h1 {
+        font-size: 5em;
+    }
+
+    .animation > .bouton-enter {
+        font-size: 3em;
+    }
+
+
+    .accueil > .introduction > .grille-introduction {
+        height: 100vh;
+        display: grid;
+        grid-template: 1fr 4fr 2fr / 1fr 1fr;
+    }
+
+    .accueil > .introduction > .grille-introduction > .citation > h1 {
+        font-size: 7em;
+        grid-row-start: 1;
+        text-align: right;
+        grid-column-start: 1;
+    }
+
+    .accueil > .introduction > .grille-introduction > nav {
+        grid-row-start: 3;
+        text-align: left;
+        grid-column-start: 1;
+        margin-top: 40px;
+
+    }
+
+    .accueil > .introduction > .grille-introduction > nav > ul > li > a {
+        font-size: 3em;
+    }
+
+
+
+    .accueil > .projet-indiglu >.grille-indiglu > .texte-indiglu,
+    .accueil > .projet-reservistes >.grille-reservistes > .texte-reservistes,
+    .accueil > .projet-campuscar >.grille-campuscar > .texte-campuscar,
+    .accueil > .projet-illustrations >.grille-illustrations > .texte-illustrations {
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+
+    .accueil > .projet-indiglu > .grille-indiglu > .texte-indiglu > h1 {
+        font-size: 5em;
+    }
+
+    .accueil > .projet-indiglu > .grille-indiglu > .texte-indiglu > p {
+        font-size: 3em;
+    }
+
+
+    .accueil > .projet-indiglu > .grille-indiglu > .texte-indiglu > .bouton-identitevisuelle {
+        font-size: 50px;
+    }
+
+    .accueil > .projet-reservistes > .grille-reservistes > .texte-reservistes > h1 {
+        font-size: 5em;
+    }
+
+    .accueil > .projet-reservistes > .grille-reservistes > .texte-reservistes > p {
+        font-size: 3em;
+    }
+
+
+    .accueil > .projet-reservistes > .grille-reservistes > .texte-reservistes > .bouton-identitevisuelle {
+        font-size: 50px;
+    }
+
+    .accueil > .projet-campuscar > .grille-campuscar > .texte-campuscar > h1 {
+        font-size: 7em;
+    }
+
+    .accueil > .projet-campuscar > .grille-campuscar > .texte-campuscar > p {
+        font-size: 3em;
+    }
+
+    .accueil > .projet-campuscar > .grille-campuscar > .texte-campuscar > .bouton-identitevisuelle {
+        font-size: 50px;
+    }
+
+
+    .accueil > .projet-indiglu >.grille-indiglu > img,
+    .accueil > .projet-reservistes >.grille-reservistes > img,
+    .accueil > .projet-campuscar >.grille-campuscar > img {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        margin-top: 50vh;
+        width: 55vh;
+    }
+
+
+
+    .accueil > .projet-campuscar > .grille-campuscar {
+        height: 120vh;
+    }
+
+    /*---------------------*/
+
+
+
+    .indiglu > .contexte> .grille-contexte {
+        height: 45vh;
+        grid-template: 0 / 1fr;
+    }
+
+    .indiglu > .contexte> .grille-contexte > h1,
+    .indiglu > .contexte> .grille-contexte > p {
+        text-align: left;
+        grid-column-start: 1;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .indiglu > .contexte> .grille-contexte > h1 {
+        font-size: 5em;
+    }
+
+    .indiglu > .contexte> .grille-contexte > p {
+        font-size: 3em;
+    }
+
+    .indiglu > .contexte> .grille-contexte > img {
+       /* margin-top: 30vh;
+        margin-left: 10vh;
+        grid-column-start: 1;
+        width: 30vh; */
+        display: none;
+    }
+
+    /*----------*/
+
+    .indiglu > .crayons > .grille-crayons {
+        height: 80vh;
+        grid-template: 0 / 0;
+    }
+
+    .indiglu > .crayons > .grille-crayons > h1,
+    .indiglu > .crayons > .grille-crayons > p {
+        text-align: left;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .indiglu > .crayons > .grille-crayons > h1 {
+         font-size: 5em;
+     }
+
+    .indiglu > .crayons > .grille-crayons > p {
+        font-size: 3em;
+    }
+
+    .indiglu > .crayons > .grille-crayons > img {
+        margin-top: 25vh;
+        margin-left: 10vh;
+        grid-column-start: 1;
+        width: 30vh;
+    }
+
+    .indiglu > .crayons > .grille-crayons >.image-base > img {
+        display: none;
+    }
+
+    /*----------*/
+
+    .indiglu > .logo > .grille-logo {
+        height: 70vh;
+        grid-template: 0 / 0;
+    }
+
+    .indiglu > .logo > .grille-logo> h1,
+    .indiglu > .logo > .grille-logo > p {
+        text-align: left;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .indiglu > .logo > .grille-logo > h1 {
+        font-size: 5em;
+    }
+
+    .indiglu > .logo > .grille-logo > p {
+        font-size: 3em;
+    }
+
+    .indiglu > .logo > .grille-logo > img {
+        grid-column-start: 1;
+        width: 50vh;
+        margin-top: 25vh;
+    }
+
+    /*----------*/
+
+    .indiglu > .maquette > .grille-maquette {
+        height: 100vh;
+        grid-template: 0 / 0;
+    }
+
+    .indiglu > .maquette > .grille-maquette > h1,
+    .indiglu > .maquette > .grille-maquette > p {
+        text-align: left;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+
+    .indiglu > .maquette > .grille-maquette > h1 {
+        font-size: 5em;
+    }
+
+    .indiglu > .maquette > .grille-maquette > p {
+        font-size: 3em;
+    }
+
+    .indiglu > .maquette > .grille-maquette > img {
+        grid-column-start: 1;
+        width: 50vh;
+        margin-top: 25vh;
+    }
+
+    .indiglu > .maquette > .grille-maquette > .bouton-maquette  {
+        font-size: 3em;
+        margin-top: 75vh;
+        text-align: center;
+    }
+
+
+    /*---------------------------*/
+
+    .campuscar > .contexte > .grille-contexte {
+        height: 150vh;
+        grid-template: 0 / 0fr;
+    }
+
+    .campuscar > .contexte > .grille-contexte > h1,
+    .campuscar > .contexte> .grille-contexte > p {
+        text-align: left;
+        grid-column-start: 1;
+        grid-column-end: 5;
+
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .campuscar > .contexte > .grille-contexte > h1 {
+        font-size: 5em;
+    }
+
+    .campuscar > .contexte > .grille-contexte > p {
+        font-size: 3em;
+    }
+
+    .campuscar > .contexte > .grille-contexte > img {
+        grid-column-start: 1;
+        margin-top: 50vh;
+        margin-left: 15vh;
+        width: 40vh;
+    }
+
+
+    /*------------*/
+
+
+    .campuscar > .personas {
+        height: 90vh;
+    }
+
+    .campuscar > .personas > h1 {
+        font-size: 5em;
+    }
+
+    .campuscar > .personas > p {
+        font-size: 3em;
+        margin-left: 10vh;
+        margin-right: 10vh;
+    }
+
+    .campuscar > .personas > img {
+        width: 70vh;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+
+    /*----------*/
+
+    .campuscar > .user {
+        height: 150vh;
+    }
+
+    .campuscar > .user > h1 {
+        font-size: 5em;
+    }
+
+    .campuscar > .user > p {
+        font-size: 3em;
+        margin-left: 10vh;
+        margin-right: 10vh;
+    }
+
+    .campuscar > .user > .grille-user > img.wire {
+        grid-column-start: 1;
+        width: 60vh;
+        margin-bottom: 10vh;
+    }
+
+    .campuscar > .user > .grille-user > img.user {
+       grid-column-start: 1;
+        width: 60vh;
+    }
+
+    .campuscar > .user > .grille-user > .bouton-wire,
+    .campuscar > .user > .grille-user > .bouton-user {
+        display: none;
+    }
+
+    /*-------------*/
+
+
+    .campuscar > .maquette {
+        height: 100vh;
+    }
+
+
+    .campuscar > .maquette > h1 {
+        font-size: 5em;
+    }
+
+    .campuscar > .maquette > p {
+        font-size: 3em;
+        margin-left: 10vh;
+        margin-right: 10vh;
+    }
+
+    .campuscar > .maquette > img {
+        width: 20vh;
+        margin-bottom: 10vh;
+    }
+
+    .campuscar > .maquette > .bouton-maquette {
+        font-size: 4em;
+    }
+
+
+    /*-------------*/
+
+    .reserviste > .contexte > .grille-contexte {
+        height: 130vh;
+    }
+
+    .reserviste > .contexte >  .grille-contexte > h1 {
+        font-size: 5em;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        margin-left: 50px;
+        text-align: left;
+    }
+
+    .reserviste > .contexte >  .grille-contexte > p {
+        font-size: 3em;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        text-align: left;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .reserviste > .contexte >  .grille-contexte > img {
+        grid-column-start: 3;
+        margin-top: 40vh;
+        width: 50vh;
+    }
+
+
+    .reserviste > .maquette > .grille-maquette {
+        height: 130vh;
+    }
+
+    .reserviste > .maquette > .grille-maquette > h1 {
+        font-size: 5em;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        margin-left: 50px;
+        text-align: left;
+    }
+
+    .reserviste > .maquette > .grille-maquette > p {
+        font-size: 3em;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        text-align: left;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .reserviste > .maquette >  .grille-maquette > img {
+        grid-column-start: 2;
+        margin-top: 40vh;
+        width: 65vh;
+    }
+
+    .reserviste > .maquette > .grille-maquette > .bouton-maquette {
+        font-size: 5em;
+        margin-top: 100vh;
+        text-align: center;
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+
+
+
+    /*-------------*/
+
+    .apropos > .intro1 > .grille-intro1 {
+        height: 60vh;
+        display: grid;
+        grid-template: 0fr / 1fr 1fr;
+    }
+
+    .apropos > .intro1 > .grille-intro1 > .citation {
+        grid-column-start: 1;
+        margin-left: 5vh;
+        grid-column-end: 4;
+        font-size: 3em;
+    }
+
+    .apropos > .texte > .grille-texte {
+        height: 110vh;
+        display: grid;
+        grid-template: 0fr / 1fr 1fr;
+        width: 50vh;
+    }
+
+    .apropos > .texte > .grille-texte > .qui {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .apropos > .texte > .grille-texte > .qui > h1 {
+        font-size: 4em;
+    }
+
+    .apropos > .texte > .grille-texte > .qui > p {
+        font-size: 3em;
+    }
+
+    .apropos > .texte > .grille-texte > .qui > .bouton-book {
+        font-size: 3em;
+    }
+
+
+    .apropos > .texte > .grille-texte > .objectifs {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .apropos > .texte > .grille-texte > .objectifs > h1 {
+        font-size: 4em;
+    }
+
+    .apropos > .texte > .grille-texte > .objectifs > p {
+        font-size: 3em;
+    }
+
+    .apropos > .texte > .grille-texte > .objectifs > .bouton-cv {
+        font-size: 3em;
+    }
+
+
+    footer {
+        height: 40vh;
+    }
+
+    footer > .reseaux > a > img {
+        width: 100px;
+        padding-right: 40px;
+    }
+
+    footer >  img {
+        width: 500px;
+    }
+
+    footer > p {
+        font-size: 40px;
+    }
+
+}

@@ -1,0 +1,25 @@
+
+
+.accueil > .projet-indiglu > .grille-indiglu >.texte-indiglu > p,
+.accueil > .projet-indiglu > .grille-indiglu >.texte-indiglu > .bouton-identitevisuelle > a {
+    font-family: "Open Sans";
+}
+
+
+.accueil > .projet-reservistes > .grille-reservistes >.texte-reservistes > h1  {
+    font-family: "Open Sans";
+}
+
+.accueil > .projet-reservistes > .grille-reservistes >.texte-reservistes > p,
+.accueil > .projet-reservistes> .grille-reservistes >.texte-reservistes > .bouton-identitevisuelle > a {
+    font-family: "Open Sans";
+}
+
+.accueil > .projet-campuscar > .grille-campuscar >.texte-campuscar > h1  {
+    font-family: "Open Sans";
+}
+
+.accueil > .projet-campuscar > .grille-campuscar >.texte-campuscar > p,
+.accueil > .projet-campuscar > .grille-campuscar >.texte-campuscar > .bouton-identitevisuelle > a {
+    font-family: "Open Sans";
+}

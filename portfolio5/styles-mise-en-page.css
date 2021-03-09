@@ -1,0 +1,553 @@
+
+    .accueil > .introduction > .grille-introduction {
+        display: grid;
+        grid-template: 1fr 1fr 1fr / 1fr 1fr 2fr;
+        height: 100vh;
+    }
+
+    .accueil > .introduction >.grille-introduction > nav {
+        grid-column-start: 1;
+        grid-row-start: 2;
+        margin-top: 200px;
+        margin-left: 70px;
+    }
+
+    .accueil > .introduction >.grille-introduction > .citation {
+        grid-column-start: 3;
+        grid-row-start: 2;
+        margin-right: 100px;
+    }
+
+
+    .accueil > .projet-indiglu > .grille-indiglu,
+    .accueil > .projet-reservistes > .grille-reservistes,
+    .accueil > .projet-campuscar > .grille-campuscar,
+    .accueil > .projet-illustrations > .grille-illustrations {
+        display: grid;
+        grid-template: 0 / 1fr 7fr 4fr 1fr;
+        height: 100vh;
+    }
+
+    .accueil > .projet-indiglu >.grille-indiglu > .texte-indiglu,
+    .accueil > .projet-reservistes >.grille-reservistes > .texte-reservistes,
+    .accueil > .projet-campuscar >.grille-campuscar > .texte-campuscar,
+    .accueil > .projet-illustrations > .grille-illustrations >.texte-illustrations {
+        grid-column-start: 3;
+        padding-top: 20vh;
+    }
+
+    .accueil > .projet-indiglu > .grille-indiglu > img,
+    .accueil > .projet-reservistes >.grille-reservistes > img,
+    .accueil > .projet-campuscar >.grille-campuscar > img,
+    .accueil > .projet-illustrations >.grille-illustrations > img {
+        width: 600px;
+        grid-column-start: 2;
+        padding-top: 10vh;
+    }
+
+
+    /*-------------------------------PAGE INDIGLU----------------------------------------*/
+
+
+    header > nav {
+        text-align: center;
+        height: 20vh;
+    }
+    header > nav > ul {
+        list-style-type: none;
+        display: inline-block;
+    }
+
+    header > nav > ul > li > a {
+        text-decoration: none;
+        color: black;
+        font-family: "Sinhala MN";
+        font-size: 20px;
+    }
+
+
+    .indiglu > .contexte > .grille-contexte {
+        display: grid;
+        grid-template: 1fr / 1fr 4fr 1fr 4fr;
+        height: 100vh;
+    }
+
+    .indiglu >.contexte > .grille-contexte > h1,
+    .indiglu >.contexte > .grille-contexte > p {
+        grid-column-start: 2;
+        grid-row-start: 1;
+        text-align: right;
+        font-family: "Sinhala MN";
+    }
+
+    .indiglu >.contexte > .grille-contexte > h1 {
+        font-size: 60px;
+        font-weight: lighter;
+    }
+    .indiglu >.contexte > .grille-contexte > p {
+        margin-top: 200px;
+        font-size: 17px;
+    }
+
+    .indiglu >.contexte > .grille-contexte > img {
+        grid-column-start: 4;
+        grid-row-start: 1;
+
+    }
+
+    /*------------------------*/
+
+
+    .indiglu >.crayons > .grille-crayons {
+        display: grid;
+        grid-template: 1fr / 1fr 4fr 1fr 4fr;
+        height: 84vh;
+        background-color: sandybrown;
+        margin-bottom: 20vh;
+    }
+
+
+    .indiglu >.crayons > .grille-crayons > h1,
+    .indiglu >.crayons> .grille-crayons > p {
+        grid-column-start: 2;
+        grid-row-start: 1;
+        text-align: right;
+        font-family: "Sinhala MN";
+        font-weight: lighter;
+    }
+
+    .indiglu >.crayons > .grille-crayons > h1 {
+        font-size: 60px;
+    }
+
+    .indiglu >.crayons > .grille-crayons > p {
+        margin-top: 160px;
+    }
+
+    .indiglu >.crayons > .grille-crayons > .image-base { /* bases retenues*/
+        grid-column-start: 2;
+        text-align: right;
+        grid-row-start: 1;
+        margin-top: 300px;
+    }
+
+    .indiglu >.crayons > .grille-crayons > .image-base > .base1 {
+        width: 150px;
+    }
+
+    .indiglu > .crayons > .grille-crayons > .image-base > .base2 {
+        width: 202px;
+        margin-left: 20px;
+    }
+
+    .indiglu > .crayons > .grille-crayons > img {
+        grid-column-start: 4;
+        grid-row-start: 1;
+    }
+
+    /*-------------------------*/
+
+    .indiglu > .logo > .grille-logo {
+        display: grid;
+        grid-template: 1fr / 1fr 4fr 1fr 4fr;
+        height: 60vh;
+    }
+
+
+    .indiglu > .logo > .grille-logo > h1,
+    .indiglu > .logo > .grille-logo > p {
+        grid-column-start: 2;
+        grid-row-start: 1;
+        text-align: right;
+        font-family: "Sinhala MN";
+        font-weight: lighter;
+    }
+
+    .indiglu > .logo > .grille-logo > h1{
+        font-size: 60px;
+    }
+
+    .indiglu > .logo > .grille-logo > p {
+        margin-top: 160px;
+    }
+
+    .indiglu > .logo > .grille-logo > img {
+        grid-column-start: 4;
+        grid-row-start: 1;
+    }
+
+    /*-------------------------*/
+
+    .indiglu > .maquette > .grille-maquette {
+        display: grid;
+        grid-template: 1fr / 1fr 4fr 1fr 4fr;
+        height: 60vh;
+    }
+
+    .indiglu > .maquette > .grille-maquette > h1,
+    .indiglu > .maquette > .grille-maquette > p{
+        grid-column-start: 2;
+        grid-row-start: 1;
+        text-align: right;
+        font-family: "Sinhala MN";
+        font-weight: lighter;
+    }
+
+
+    .indiglu > .maquette > .grille-maquette > h1{
+        font-size: 60px;
+    }
+
+    .indiglu > .maquette > .grille-maquette > p {
+        margin-top: 160px;
+    }
+
+
+    .indiglu > .maquette > .grille-maquette > img{
+        grid-column-start: 4;
+        grid-row-start: 1;
+    }
+
+
+    .indiglu > .maquette > .grille-maquette > .bouton-maquette {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        margin-top: 300px;
+        text-align: right;
+        z-index: 999;
+    }
+
+    /*-------------------------*/
+
+    .reserviste > .contexte > .grille-contexte {
+        display: grid;
+        grid-template: 1fr / 1fr 4fr 1fr 4fr;
+        height: 100vh;
+    }
+
+    .reserviste >.contexte > .grille-contexte > h1,
+    .reserviste >.contexte > .grille-contexte > p {
+        grid-column-start: 2;
+        grid-row-start: 1;
+        text-align: right;
+        font-family: "Sinhala MN";
+    }
+
+    .reserviste >.contexte > .grille-contexte > h1 {
+        font-size: 60px;
+        font-weight: lighter;
+    }
+    .reserviste >.contexte > .grille-contexte > p {
+        margin-top: 200px;
+        font-size: 17px;
+    }
+
+    .reserviste >.contexte > .grille-contexte > img {
+        grid-column-start: 4;
+        grid-row-start: 1;
+    }
+
+    /*-------------------------*/
+
+    .reserviste > .maquette > .grille-maquette {
+        display: grid;
+        grid-template: 0fr / 1fr 4fr 1fr 4fr;
+        height: 60vh;
+    }
+
+    .reserviste > .maquette > .grille-maquette > h1,
+    .reserviste > .maquette > .grille-maquette > p{
+        grid-column-start: 2;
+        grid-row-start: 1;
+        text-align: right;
+        font-family: "Sinhala MN";
+        font-weight: lighter;
+    }
+
+
+    .reserviste > .maquette > .grille-maquette > h1{
+        font-size: 60px;
+    }
+
+    .reserviste > .maquette > .grille-maquette > p {
+        margin-top: 160px;
+    }
+
+
+    .reserviste > .maquette > .grille-maquette > img{
+        grid-column-start: 4;
+        grid-row-start: 1;
+    }
+
+
+    .reserviste > .maquette > .grille-maquette > .bouton-maquette {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        margin-top: 300px;
+        text-align: right;
+    }
+
+    /*-----------------------------------------------------------------*/
+
+
+    .campuscar > .contexte > .grille-contexte {
+        display: grid;
+        grid-template: 1fr / 1fr 4fr 1fr 4fr;
+        height: 100vh;
+    }
+
+    .campuscar > .contexte > .grille-contexte > h1,
+    .campuscar > .contexte > .grille-contexte > p {
+        grid-column-start: 2;
+        grid-row-start: 1;
+        text-align: right;
+        font-family: "Sinhala MN";
+    }
+
+    .campuscar > .contexte > .grille-contexte > h1 {
+        font-size: 60px;
+        font-weight: lighter;
+    }
+    .campuscar > .contexte > .grille-contexte > p {
+        margin-top: 200px;
+        font-size: 17px;
+    }
+
+    .campuscar > .contexte > .grille-contexte > img {
+        grid-column-start: 4;
+        grid-row-start: 1;
+
+    }
+
+
+
+    .campuscar > .personas {
+        height: 130vh;
+        text-align: center;
+    }
+
+    .campuscar > .personas > h1 {
+         font-size: 60px;
+         font-weight: lighter;
+         text-align: center;
+        font-family: "Sinhala MN";
+     }
+
+    .campuscar > .personas > p {
+        font-size: 17px;
+        font-family: "Sinhala MN";
+        text-align: center;
+        margin-left: 30vh;
+        margin-right: 30vh;
+    }
+
+    .campuscar > .personas > img {
+        width: 130vh;
+        text-align: center;
+    }
+
+    .campuscar > .user > .grille-user {
+        display: grid;
+        grid-template: 0fr / 1fr 1fr;
+        height: 100vh;
+    }
+
+    .campuscar > .user > h1 {
+        font-size: 60px;
+        font-weight: lighter;
+        text-align: center;
+        font-family: "Sinhala MN";
+    }
+
+    .campuscar > .user > p {
+        font-size: 17px;
+        font-family: "Sinhala MN";
+        text-align: center;
+        margin-left: 30vh;
+        margin-right: 30vh;
+    }
+
+    .campuscar > .user > .grille-user > img {
+        width: 70vh;
+        text-align: center;
+        margin-left: 80px;
+    }
+
+    .campuscar > .user > .grille-user > .bouton-user,
+    .campuscar > .user > .grille-user > .bouton-wire {
+        margin-left: 30vh;
+        margin-top: 10vh;
+    }
+
+
+    .campuscar > .user > .grille-user > img.user {
+        grid-column-start: 1;
+    }
+
+    .campuscar > .user > .grille-user > img.wire {
+        grid-column-start: 2;
+        grid-row-start: 1;
+    }
+
+    .campuscar > .maquette {
+        text-align: center;
+        height: 120vh;
+    }
+
+    .campuscar > .maquette > h1 {
+        font-size: 60px;
+        font-weight: lighter;
+        text-align: center;
+        font-family: "Sinhala MN";
+    }
+
+    .campuscar > .maquette > p {
+        font-size: 17px;
+        font-family: "Sinhala MN";
+        text-align: center;
+        margin-left: 30vh;
+        margin-right: 30vh;
+    }
+
+    .campuscar > .maquette > img {
+        width: 300px;
+        margin-left: 20px;
+        margin-bottom: 50px;
+    }
+
+
+
+
+
+
+    /*-----------------------------------------------------------------*/
+
+
+
+
+
+    .apropos > .intro1 > .grille-intro1 {
+        display: grid;
+        grid-template: 0fr / 2fr 1fr 1fr 1fr;
+        height: 70vh;
+    }
+
+    .apropos > .intro1 > .grille-intro1 > .citation  {
+        font-family: Poppins, Bold;
+        font-size: 50px;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        margin-left: 20vh;
+        letter-spacing: 5px;
+    }
+
+    .apropos > .intro1 > .grille-intro1 > img {
+        width: 50vh;
+        grid-column-start: 3;
+        grid-column-end: 5;
+    }
+
+    .texte > .grille-texte {
+        display: grid;
+        grid-template: 0fr / 1fr 1fr;
+        height: 60vh;
+        background-color: #EFA226;
+    }
+
+    .texte > .grille-texte > .qui > h1 {
+        font-size: 40px;
+        font-family: Poppins, Bold;
+        letter-spacing: 5px;
+    }
+
+    .texte > .grille-texte > .qui > p {
+        font-family: "Sinhala MN";
+    }
+
+    .texte > .grille-texte > .qui {
+        margin-top: 10vh;
+        margin-left: 100px;
+    }
+
+    .texte > .grille-texte > .qui > .bouton-book {
+        margin-top: 7vh;
+    }
+
+    .texte > .grille-texte > .qui > .bouton-book > a {
+        margin-right: 30px;
+    }
+
+    .texte > .grille-texte > .objectifs > h1 {
+        font-size: 40px;
+        font-family: Poppins, Bold;
+        letter-spacing: 5px;
+    }
+
+    .texte > .grille-texte > .objectifs > p {
+        font-family: "Sinhala MN";
+    }
+
+    .texte > .grille-texte > .objectifs {
+        margin-top: 10vh;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .texte > .grille-texte > .objectifs > .bouton-cv {
+        margin-top: 7vh;
+    }
+
+    .texte > .grille-texte > .objectifs > .bouton-cv > a {
+        margin-right: 30px;
+    }
+
+
+
+    footer > .grille-footer > .reseaux {
+        grid-column-start: 3;
+        grid-row-start: 3;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    footer > .grille-footer > p {
+        grid-row-start: 3;
+        grid-column-start: 3;
+        margin-top: 150px;
+
+    }
+
+
+    /*@media screen and (max-width: 100em) {
+
+        .accueil > .projet-indiglu > .grille-indiglu > img,
+        .accueil > .projet-reservistes > .grille-reservistes > img,
+        .accueil > .projet-campuscar > .grille-campuscar > img {
+            transform: translateX(-500px);
+            transition: all 1s;
+        }
+
+        .accueil > .projet-indiglu:hover > .grille-indiglu > img,
+        .accueil > .projet-reservistes:hover > .grille-reservistes > img,
+        .accueil > .projet-campuscar:hover > .grille-campuscar > img {
+           transform: translateX(30px);
+            transition: all 1s;
+        }
+
+        .accueil > .projet-indiglu > .grille-indiglu > .texte-indiglu,
+        .accueil > .projet-reservistes > .grille-reservistes > .texte-reservistes,
+        .accueil > .projet-campuscar > .grille-campuscar > .texte-campuscar {
+            transform: translateX(500px);
+            transition: all 1s;
+        }
+
+        .accueil > .projet-indiglu:hover > .grille-indiglu > .texte-indiglu,
+        .accueil > .projet-reservistes:hover > .grille-reservistes > .texte-reservistes,
+        .accueil > .projet-campuscar:hover > .grille-campuscar > .texte-campuscar {
+            transform: translateX(30px);
+            transition: all 1s;
+        }
+
+    }*/
